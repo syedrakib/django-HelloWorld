@@ -13,6 +13,6 @@ urlpatterns = [
     url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
 
     # Generic views normally expect the primary key value [captured from the URL] to be called "pk".
-    # So we’ve changed the "question_id" variable name to "pk" for using with the generic views.
+    # So we've changed the "question_id" variable name to "pk" for using with the generic views.
 
 ]
